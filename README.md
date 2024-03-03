@@ -11,3 +11,10 @@ See official document
 ```terminal
 export $(cat .env | xargs)
 ```
+
+
+# Visualize dependency graph
+
+```terminal
+terraform graph | dot -Tsvg > graph.svg
+```
